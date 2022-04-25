@@ -87,8 +87,8 @@ body p {
 body .icone-text {
     margin-left: 20px;
     font-weight: 600;
-    font-size: 1.5em;
-    line-height: 1.2em;
+    font-size: 1.2em;
+    line-height: 1.3em;
 }
 
 .info-text {
@@ -252,7 +252,8 @@ body .icone-text {
     color: #61440A;
 }
 
-.sobre-atendimentos img {
+.sobre-atendimentos .atendimentos-online-img,
+.decorador-amarelo-escuro1 {
     grid-area: img-atendimentos;
     margin-top: 20px;
 }
