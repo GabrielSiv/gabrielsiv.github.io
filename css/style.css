@@ -955,9 +955,6 @@ footer p a {
     [data-dropdown] {
         position: relative;
     }
-    [data-dropdown] .dropdown-menu {
-        display: none;
-    }
     [data-dropdown]:hover .dropdown-menu,
     [data-dropdown].active .dropdown-menu {
         display: block;
