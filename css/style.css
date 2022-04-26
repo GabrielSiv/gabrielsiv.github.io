@@ -689,6 +689,9 @@ footer p a {
     .contato .contato-titulo {
         margin-bottom: 24px;
     }
+    .social-media .social-media-titulo {
+        max-height: 140px;
+    }
     .contato .social-media {
         max-width: 340px;
     }
@@ -926,7 +929,7 @@ footer p a {
     body .contato .social-media p {
         min-width: 210px;
         margin-right: 0px;
-        margin-top: 16px;
+        margin-top: 0px;
         margin-bottom: 32px;
     }
     body .contato .social-media ul img {
