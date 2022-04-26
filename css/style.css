@@ -429,10 +429,6 @@ body .sobre-mim .hyperlink-texto:hover {
     margin-bottom: 12px;
 }
 
-.p-contato {
-    max-width: 310px;
-}
-
 
 /*SOCIAL MEDIA*/
 
@@ -458,8 +454,9 @@ body .sobre-mim .hyperlink-texto:hover {
 }
 
 .p-contato {
-    margin-top: 16px;
+    margin-top: 28px;
     margin-bottom: 48px;
+    max-width: 310px;
 }
 
 .social-media a {
@@ -689,7 +686,7 @@ footer p a {
         grid-template-columns: 1fr;
         grid-template-areas: 'social-media';
     }
-    .contato .h1-contato {
+    .contato .contato-titulo {
         margin-bottom: 24px;
     }
     .contato .social-media {
@@ -929,6 +926,7 @@ footer p a {
     body .contato .social-media p {
         min-width: 210px;
         margin-right: 0px;
+        margin-top: 16px;
         margin-bottom: 32px;
     }
     body .contato .social-media ul img {
