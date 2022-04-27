@@ -45,6 +45,7 @@ img {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     transition: 0.1s;
+    padding: 16px 24px 16px 24px;
 }
 
 .btn:hover {
@@ -162,9 +163,9 @@ body .sobre-mim .hyperlink-texto:hover {
 
 .nav-menu a {
     color: #023A4F;
-    padding: 16px 24px 16px 24px;
     transition: 0.1s;
     font-size: 1.2em;
+    font-weight: 600;
 }
 
 .nav-menu a:hover {
