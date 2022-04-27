@@ -297,7 +297,6 @@ body .sobre-mim .hyperlink-texto:hover {
 
 .sobre-mim .sobre-mim-text {
     margin-left: 164px;
-    margin-bottom: 60px;
 }
 
 .h1-sobre-mim {
@@ -311,7 +310,7 @@ body .sobre-mim .hyperlink-texto:hover {
 }
 
 .sobre-mim .decorador-azul {
-    margin-top: 360px;
+    margin-top: -180px;
     margin-left: -64px;
 }
 
@@ -629,10 +628,6 @@ footer p a {
         max-width: 50px;
         margin-top: -50px;
     }
-    body .sobre-mim {
-        padding-top: 60px;
-        padding-bottom: 20px;
-    }
     .camera-fotografica {
         margin-left: 280px;
     }
@@ -850,10 +845,9 @@ footer p a {
         margin-top: 95px;
     }
     body .sobre-mim .decorador-azul {
-        width: 56px;
-        margin-left: 1px;
-        margin-top: -20px;
-        padding-bottom: 36px;
+        width: 36px;
+        margin-left: 250px;
+        margin-top: 1px;
     }
     body .importancia-psicoterapia {
         height: auto;
@@ -918,7 +912,7 @@ footer p a {
         width: auto;
         padding-left: 30px;
         padding: 56px;
-        max-width: 220px;
+        max-width: 200px;
     }
     body .contato .social-media li+li {
         margin-top: 24px;
@@ -937,7 +931,7 @@ footer p a {
     }
     body .contato .social-media .social-media-titulo img {
         width: 120px;
-        margin-left: 161px;
+        margin-left: 1px;
         margin-top: -280px;
     }
     .footer {
