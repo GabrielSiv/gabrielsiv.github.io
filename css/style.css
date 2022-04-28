@@ -141,16 +141,21 @@ body .sobre-mim .hyperlink-texto:hover {
 .header {
     background-color: #D0F2FF;
     grid-area: header;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
     padding: 40px;
     padding-left: calc((100vw - 1160px)/2);
     padding-right: calc((100vw - 1160px)/2);
 }
 
-.logo {
-    max-width: 200px;
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img,
+a {
+    max-height: 90px;
+    max-width: 261px;
 }
 
 .nav-menu {
@@ -723,6 +728,10 @@ footer p a {
     }
     body header {
         grid-area: header;
+    }
+    body header nav .logo-img {
+        max-height: 50px;
+        max-width: 145px;
     }
     body .header .nav-menu {
         display: none;
