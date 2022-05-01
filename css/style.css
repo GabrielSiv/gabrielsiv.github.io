@@ -785,7 +785,7 @@ footer p a {
     }
     body .sobre-atendimentos .decorador-amarelo-escuro1 {
         position: absolute;
-        margin-left: 80px;
+        margin-left: 110px;
         margin-top: -20px;
         transform: rotateY(180deg);
     }
@@ -877,9 +877,11 @@ footer p a {
         min-width: 300px;
         max-width: 400px;
         margin-left: 10px;
+        margin-right: 10px;
     }
     body .importancia-psicoterapia .importancia-text p {
         margin-bottom: 0px;
+        margin-right: 0px;
         min-width: 300px;
         max-width: 400px;
     }
@@ -889,7 +891,7 @@ footer p a {
     body .importancia-psicoterapia .importancia-img img {
         min-width: 129px;
         max-width: 180px;
-        margin-left: calc((100vw - 28vw)/2);
+        margin-left: calc((100vw - 34vw)/2);
     }
     body .importancia-psicoterapia .importancia-img {
         margin-top: -1020px;
@@ -952,13 +954,19 @@ footer p a {
     }
     .footer .footer-main {
         display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
+        margin-left: 10px;
     }
     .footer .footer-main p {
         margin-right: 0px;
     }
     .footer .footer-main .informacoes {
         max-width: 70vw;
+    }
+    body .footer .footer-main .info {
+        max-width: 100%;
+        padding-right: 40px;
     }
     body .footer .footer-main .info .informacoes p {
         font-size: 1em;
