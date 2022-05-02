@@ -232,11 +232,11 @@ a {
 .sobre-atendimentos {
     grid-area: sobre-atendimentos;
     display: grid;
-    grid-template-columns: 1fr 1.4fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 'texto-atendimentos img-atendimentos';
     margin-top: 212px;
     justify-items: end;
-    grid-gap: 40px;
+    grid-gap: 120px;
     height: auto;
     padding-left: calc((100vw - 1160px)/2);
     padding-right: calc((100vw - 1160px)/2);
@@ -293,8 +293,8 @@ a {
     background-color: #D0F2FF;
     padding-left: calc((100vw - 1160px)/2);
     padding-right: calc((100vw - 1160px)/2);
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .sobre-mim .sobre-mim-img {
@@ -497,7 +497,7 @@ a {
 .footer .info {
     display: flex;
     justify-content: flex-start;
-    padding: 60px 120px 60px 0;
+    padding: 50px 120px 50px 0;
 }
 
 .footer .sobre-footer {
@@ -563,6 +563,12 @@ footer p a {
         margin-left: -50px;
         transform: rotateY(0deg);
     }
+    .sobre-atendimentos {
+        grid-gap: 60px;
+    }
+    .sobre-atendimentos .sobre-content {
+        max-width: 450px;
+    }
 }
 
 @media(max-width: 1200px) {
@@ -571,7 +577,7 @@ footer p a {
         padding-left: calc((100vw - 800px)/2);
         padding-right: calc((100vw - 800px)/2);
     }
-    body .box-anime {
+    body .estrutura .box-anime {
         padding-left: calc((100vw - 800px)/2);
         padding-right: calc((100vw - 800px)/2);
     }
@@ -596,21 +602,22 @@ footer p a {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 'texto imagem';
-        grid-gap: 60px;
+        grid-gap: 80px;
         margin-top: 120px;
     }
     body .sobre-atendimentos .sobre-content {
         grid-area: texto;
-        max-width: 370px;
+        max-width: 350px;
     }
     body .sobre-atendimentos .sobre-content p {
         margin-top: 12px;
-        max-width: 370px;
+        max-width: 350px;
         margin-right: 0px;
     }
     body .sobre-atendimentos ul {
         max-width: 300px;
         display: flex;
+        flex-wrap: wrap;
     }
     body .icone-atendimentos {
         max-width: 24px;
@@ -625,7 +632,6 @@ footer p a {
     }
     body .sobre-atendimentos .atendimentos-online-img {
         grid-area: imagem;
-        margin-left: 28px;
         max-width: 100%;
         min-width: 320px;
     }
@@ -634,15 +640,24 @@ footer p a {
         max-width: 50px;
         margin-top: -50px;
     }
+    body .sobre-mim {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    body .sobre-mim .sobre-mim-text {
+        margin-left: 120px;
+        max-width: 340px;
+    }
     .camera-fotografica {
-        margin-left: 280px;
+        margin-left: 320px;
+        margin-top: -100px;
     }
     .pata {
-        margin-left: 250px;
+        margin-left: 275px;
     }
     .mulher {
-        margin-left: 20px;
-        margin-top: 140px;
+        margin-left: 180px;
+        margin-top: -260px;
     }
     .sobre-mim .decorador-azul {
         margin-top: -570px;
@@ -662,7 +677,7 @@ footer p a {
         margin-top: -30px;
     }
     body .importancia-psicoterapia .importancia-img img {
-        max-width: 100%;
+        max-width: 320px;
         margin-top: auto;
     }
     body .importancia-psicoterapia .decorador-amarelo-escuro2 {
@@ -771,17 +786,15 @@ footer p a {
         justify-content: center;
         height: auto;
         margin-bottom: 120px;
-    }
-    body .sobre-atendimentos .sobre-content {
-        max-width: 740px;
-        min-width: 300px;
+        max-width: 300px;
+        padding-left: calc((100vw - 320px)/2) !important;
     }
     body .sobre-atendimentos .atendimentos-online-img {
-        max-width: 740px;
-        max-height: 296px;
-        width: auto;
-        height: 40vw;
-        margin: 0 auto;
+        margin-top: -56px;
+    }
+    body .sobre-atendimentos .sobre-content .p-atendimentos {
+        margin-top: 24px;
+        margin-bottom: 36px;
     }
     body .sobre-atendimentos .decorador-amarelo-escuro1 {
         position: absolute;
@@ -802,7 +815,7 @@ footer p a {
         min-width: 300px;
         margin-top: 0px;
     }
-    body .sobre-mim {
+    body .estrutura .sobre-mim {
         height: auto;
         grid-area: sobre-mim;
         display: flex;
@@ -816,15 +829,23 @@ footer p a {
         width: 208px;
         margin-left: 10px;
     }
+    body .sobre-mim .icones {
+        margin-left: 20px;
+    }
     body .sobre-mim .sobre-mim-text {
         margin-top: 32px;
         max-width: 400px;
-        min-width: 200px;
+        min-width: 300px;
         margin-left: 10px;
         margin-right: 10px;
     }
+    body .sobre-mim .sobre-mim-text h1 {
+        margin-bottom: 24px;
+    }
     body .sobre-mim .sobre-mim-text p {
         min-width: 280px;
+        max-width: 300px;
+        margin-right: 10px;
     }
     body .sobre-mim-text .break {
         display: inline;
@@ -859,7 +880,7 @@ footer p a {
         margin-left: 250px;
         margin-top: 1px;
     }
-    body .importancia-psicoterapia {
+    body .estrutura .importancia-psicoterapia {
         height: auto;
         margin-top: 120px;
         padding-top: 56px;
@@ -884,6 +905,7 @@ footer p a {
         margin-right: 0px;
         min-width: 300px;
         max-width: 400px;
+        margin-top: 24px;
     }
     body .importancia-psicoterapia .importancia-text .decorador-amarelo-escuro2 {
         display: none;
