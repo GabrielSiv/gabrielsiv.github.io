@@ -73,7 +73,7 @@ function initScrollSuave() {
     const section = document.querySelector(href);
     section.scrollIntoView({
       behavior: 'smooth',
-      block: 'start',
+      block: 'center',
     });
   }
 
