@@ -764,6 +764,7 @@ footer p a {
         align-self: flex-start;
         margin-top: 12px;
         margin-right: 20px;
+        margin-left: 10px;
     }
     .intro .intro-content {
         grid-area: texto;
@@ -781,6 +782,7 @@ footer p a {
     }
     body .sobre-atendimentos {
         grid-area: sobre-atendimentos;
+        grid-gap: 0px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -788,9 +790,15 @@ footer p a {
         margin-bottom: 120px;
         max-width: 300px;
         padding-left: calc((100vw - 320px)/2) !important;
+        padding-right: calc((100vw - 320px)/2) !important;
     }
     body .sobre-atendimentos .atendimentos-online-img {
-        margin-top: -56px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 320px;
+        height: 128px;
+        border-radius: 5px;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     }
     body .sobre-atendimentos .sobre-content .p-atendimentos {
         margin-top: 24px;
@@ -941,6 +949,9 @@ footer p a {
     body .contato .contato-esquerda h2 {
         font-weight: 600;
         font-size: 1.8em;
+    }
+    body .contato .contato-titulo {
+        margin-bottom: 54px;
     }
     body .contato .social-media {
         width: auto;
