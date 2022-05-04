@@ -633,7 +633,6 @@ footer p a {
     body .sobre-atendimentos .atendimentos-online-img {
         grid-area: imagem;
         max-width: 100%;
-        min-width: 320px;
     }
     body .sobre-atendimentos .decorador-amarelo-escuro1 {
         grid-area: imagem;
@@ -736,13 +735,10 @@ footer p a {
         grid-template-columns: 100%;
         grid-template-areas: 'header' 'intro' 'sobre-atendimentos' 'sobre-mim' 'importancia-psicoterapia' 'contato' 'footer';
     }
-    body .header,
-    body .box-anime {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
     body header {
         grid-area: header;
+        padding-left: calc((100vw - 320px)/2) !important;
+        padding-right: calc((100vw - 320px)/2) !important;
     }
     body header nav .logo-img {
         max-height: 50px;
@@ -751,6 +747,10 @@ footer p a {
     body .header .nav-menu {
         display: none;
     }
+    body header .dropdown img {
+        width: 26px;
+        height: 18px;
+    }
     .intro {
         grid-area: intro;
         display: flex;
@@ -758,13 +758,14 @@ footer p a {
         height: auto;
         grid-gap: 0px !important;
         padding-bottom: 40px;
+        padding-left: calc((100vw - 320px)/2) !important;
+        padding-right: calc((100vw - 320px)/2) !important;
     }
     .intro img {
         max-width: 40%;
         align-self: flex-start;
         margin-top: 12px;
         margin-right: 20px;
-        margin-left: 10px;
     }
     .intro .intro-content {
         grid-area: texto;
@@ -793,12 +794,10 @@ footer p a {
         padding-right: calc((100vw - 320px)/2) !important;
     }
     body .sobre-atendimentos .atendimentos-online-img {
-        margin-left: 10px;
-        margin-right: 10px;
-        width: 320px;
-        height: 128px;
+        max-width: 300px;
+        max-height: 120px;
         border-radius: 5px;
-        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
     }
     body .sobre-atendimentos .sobre-content .p-atendimentos {
         margin-top: 24px;
@@ -927,6 +926,7 @@ footer p a {
         margin-top: -1020px;
     }
     body .importancia-psicoterapia .importancia-psicoterapia-icons {
+        margin-top: 16px;
         display: flex;
         justify-content: flex-start;
         flex-wrap: wrap;
@@ -958,6 +958,7 @@ footer p a {
         padding-left: 30px;
         padding: 56px;
         max-width: 200px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
     }
     body .contato .social-media li+li {
         margin-top: 24px;
@@ -981,8 +982,8 @@ footer p a {
     }
     .footer {
         grid-area: footer;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: calc((100vw - 320px)/2) !important;
+        padding-right: calc((100vw - 320px)/2) !important;
         margin-top: 120px;
     }
     .footer .footer-main {
@@ -1031,12 +1032,12 @@ footer p a {
     }
     .dropdown-menu {
         position: absolute;
-        top: 38px;
+        top: 28px;
         right: 0px;
         background: #E4A30B;
-        border: 2px solid #023A4F;
         padding: 32px 20px 32px 20px;
         border-radius: 5px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
     }
     body .dropdown-menu a {
         text-decoration: none;
