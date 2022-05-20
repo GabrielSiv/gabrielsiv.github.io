@@ -921,6 +921,7 @@ footer p a {
         min-width: 129px;
         max-width: 180px;
         margin-left: calc((100vw - 34vw)/2);
+        margin-top: 0px;
     }
     body .importancia-psicoterapia .importancia-img {
         margin-top: -1020px;
