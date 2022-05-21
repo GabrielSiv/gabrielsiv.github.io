@@ -89,21 +89,21 @@ function trocaImagem() {
     largura = window.innerWidth;
     if (largura <= 1200) {
       document.getElementById('importancia-img-js').src =
-        'img/importancia-psicologia-img-small.png';
+        'img/importancia-psicologia-img-small.webp';
     } else {
       document.getElementById('importancia-img-js').src =
-        'img/importancia-psicologia-img.png';
+        'img/importancia-psicologia-img.webp';
     }
 
     if (largura <= 800) {
       document.getElementById('atendimentos-online-img').src =
         'img/atendimentos-online-img-mobile.jpg';
       document.getElementById('importancia-img-js').src =
-        'img/importancia-psicologia-img-mobile.png';
+        'img/importancia-psicologia-img-mobile.webp';
       document.getElementById('dropdown-container').style.display = 'block';
     } else {
       document.getElementById('atendimentos-online-img').src =
-        'img/atendimentos-online-img.jpg';
+        'img/atendimentos-online-img.webp';
       document.getElementById('dropdown-container').style.display = 'none';
     }
   }
